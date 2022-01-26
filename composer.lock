@@ -1,0 +1,171 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "940e4f7de343b6bd37f42aabf1530fc0",
+    "packages": [
+        {
+            "name": "prinx/dotenv",
+            "version": "v0.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prinx/dotenv.git",
+                "reference": "3a36a10035ba319ebc08bdbdbc0dbddce9d556d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prinx/dotenv/zipball/3a36a10035ba319ebc08bdbdbc0dbddce9d556d1",
+                "reference": "3a36a10035ba319ebc08bdbdbc0dbddce9d556d1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^5.1",
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/env.php",
+                    "src/env_namespaced.php"
+                ],
+                "psr-4": {
+                    "Prinx\\Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Prince Damien Dorcis-Akpaglo",
+                    "email": "princedorcis@gmail.com",
+                    "homepage": "https://github.com/prinx",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Make easy access to the environment variables in your application",
+            "homepage": "https://github.com/prinx/dotenv",
+            "keywords": [
+                "dotenv",
+                "env",
+                "phpdotenv"
+            ],
+            "support": {
+                "issues": "https://github.com/prinx/dotenv/issues",
+                "source": "https://github.com/prinx/dotenv/tree/v0.4.3"
+            },
+            "time": "2020-12-01T11:32:50+00:00"
+        },
+        {
+            "name": "prinx/notify",
+            "version": "v0.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prinx/notify.git",
+                "reference": "a582a2420b08bc922bb2895c795b880d37ba23d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prinx/notify/zipball/a582a2420b08bc922bb2895c795b880d37ba23d7",
+                "reference": "a582a2420b08bc922bb2895c795b880d37ba23d7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^5.1",
+                "phpunit/phpunit": "^9.2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Prinx\\Notify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Prince Dorcis",
+                    "email": "princedorcis@gmail.com",
+                    "homepage": "https://prinx.github.io",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Simple log package",
+            "homepage": "https://github.com/prinx/notify",
+            "support": {
+                "issues": "https://github.com/prinx/notify/issues",
+                "source": "https://github.com/prinx/notify/tree/v0.0.4"
+            },
+            "time": "2020-11-15T11:01:05+00:00"
+        },
+        {
+            "name": "prinx/phputils",
+            "version": "v0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prinx/phputils.git",
+                "reference": "84c3ce1483f6c1db6ad3f4532555b452c4f2064a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prinx/phputils/zipball/84c3ce1483f6c1db6ad3f4532555b452c4f2064a",
+                "reference": "84c3ce1483f6c1db6ad3f4532555b452c4f2064a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Prinx\\Utils\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Prince Damien Dorcis-Akpaglo",
+                    "email": "princedorcis@gmail.com",
+                    "homepage": "https://github.com/Prinx",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Utilities classes",
+            "homepage": "https://github.com/Prinx/phputils",
+            "keywords": [
+                "php",
+                "utils"
+            ],
+            "support": {
+                "issues": "https://github.com/prinx/phputils/issues",
+                "source": "https://github.com/prinx/phputils/tree/v0.0.3"
+            },
+            "time": "2020-10-22T14:42:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
