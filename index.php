@@ -16,7 +16,11 @@ $simulatorConfig = realpath(__DIR__ . '/../../../simulator.json') ? :
 $rawSimulatorData = file_exists($simulatorConfig) ? file_get_contents($simulatorConfig) : '{}';
 $data = json_decode($rawSimulatorData, true);
 $networks = $data['networks'] ?? [];
+
+
 ?>
+
+<?php header('Access-Control-Allow-Origin: *'); ?>
 
 <!DOCTYPE html>
 <html>
@@ -126,8 +130,8 @@ $networks = $data['networks'] ?? [];
                 </div>
 
                 <div class="form-field form-group" title="May be required by some  applications">
-                    <label class="text-primary" for="ussdCode">INPUT: </label> <br>
-                    <input name="ussdCode" id="ussdCode" class="ussdCode" type="text" pattern="\*\d{1,}(\*\d{1,})*#"
+                    <label class="text-primary" for="input">INPUT: </label> <br>
+                    <input name="input" id="input" class="input" type="text" pattern="\*\d{1,}(\*\d{1,})*#"
                            autocomplete="on" value="<?php echo env('USSD_CODE', '') ?>" />
                 </div>
 
